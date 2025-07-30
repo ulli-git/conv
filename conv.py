@@ -49,7 +49,6 @@ if __name__ == '__main__':
     #  [19, 29, 23]]
     #matrix = np.array([[1, 2], [3, 4]], dtype=float)
     #kernel = np.array([[1, 0], [0, 0], [0, 1]], dtype=float)
-    #print(convolution(matrix, kernel))
     np.random.seed(0)
     matrix = np.random.randint(0, 255, (32,32))
     kernel = np.ones((3,3)) * -1
